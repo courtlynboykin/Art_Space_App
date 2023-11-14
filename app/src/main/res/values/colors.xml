@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
+    <color name="dark_orange">#FFF87247</color>
+    <color name="darkPurple">#A000BD</color>
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 </resources>
+
+<!--    val darkOrange = Color()-->
+<!--    val darkPurple = Color(0xFF)-->
+<!--    val Pink80 = Color(0xFFEFB8C8)-->
+
+<!--    val brightOrange = Color(0xFFFF9800)-->
+<!--    val lightBlue = Color(0xFFE0FCFF)-->
+<!--    val green = Color(0xFFCDDC39)-->
