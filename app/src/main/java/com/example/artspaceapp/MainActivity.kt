@@ -1,7 +1,6 @@
 package com.example.artspaceapp
 
 import android.os.Bundle
-import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.BorderStroke
@@ -19,7 +18,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.material3.Button
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.MaterialTheme.shapes
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -199,30 +197,41 @@ fun ArtSpaceLayout(
                 .shadow(8.dp, shapes.small)
         )
         Spacer(modifier = modifier.height(20.dp))
-        Column(
-            horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.Top,
+        ArtInfo(
+            album = album,
+            artistAndYear = artistAndYear,
             modifier = modifier
-                .background(Color(color = 0xFFe8f1ff))
-                .padding(horizontal = 96.dp)
-        ) {
-            Text(
-                text = album,
-                fontSize = 20.sp,
-                modifier = modifier
-            )
+        )
 
-            Text(
-                text = artistAndYear,
-                fontWeight = FontWeight.Bold,
-                modifier = modifier
-                    .padding(top = 5.dp)
-            )
-        }
-        Log.d("ColorDebug", "Primary Color: ${MaterialTheme.colorScheme.primary}")
     }
 }
 
+@Composable
+fun ArtInfo(
+    album: String,
+    artistAndYear: String,
+    modifier: Modifier
+) {
+    Column(
+//        horizontalAlignment = Alignment.Start,
+        modifier = modifier
+            .background(Color(color = 0xFFe8f1ff))
+            .width(300.dp)
+    ) {
+        Text(
+            text = album,
+            fontSize = 20.sp,
+            modifier = modifier
+        )
+
+        Text(
+            text = artistAndYear,
+            fontWeight = FontWeight.Bold,
+            modifier = modifier
+                .padding(top = 5.dp)
+        )
+    }
+}
 
 @Preview(showBackground = true, showSystemUi = true)
 @Composable
