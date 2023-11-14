@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Art Space App</string>
+    <string name="aquemini">Aquemini</string>
+    <string name="thug_motivation">Thug Motivation 101</string>
+    <string name="stankonia">Stankonia</string>
+    <string name="trap_muzik">Trap Muzik</string>
+    <string name="culture">Culture</string>
+    <string name="word_of_mouf">Word of Mouf</string>
+    <string name="flockaveli">Flockaveli</string>
+    <string name="the_state">The State vs. Radric Davis</string>
+    <string name="crunk_juice">Crunk Juice</string>
+    <string name="my_turn">My Turn</string>
+    <string name="outkast1">Outkast: 1998</string>
+    <string name="jeezy">Young Jeezy: 2005</string>
+    <string name="outkast2">Outkast: 2000</string>
+    <string name="ti">T.I.: 2003</string>
+    <string name="migos">Migos: 2017</string>
+    <string name="ludacris">Ludacris: 2001</string>
+    <string name="waka_flocka">Waka Flocka: 2010</string>
+    <string name="gucci">Gucci Mane: 2009</string>
+    <string name="lil_jon">Lil Jon &amp; The Eastside Boyz: 2004</string>
+    <string name="lil_baby">Lil Baby: 2020</string>
+</resources>
